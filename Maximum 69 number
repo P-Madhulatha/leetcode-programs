@@ -1,0 +1,6 @@
+class Solution:
+    def maximum69Number (self, num: int) -> int:
+        a=str(num)
+        return int(a.replace('6','9',1))
+      
+        

@@ -1,0 +1,15 @@
+#power of 3
+class Solution:
+    def isPowerOfThree(self, n: int) -> bool:
+        p=0
+        while 3**p<n:
+            p+=1
+        return 3**p==n   
+        
+#power of 4
+class Solution:
+    def isPowerOfThree(self, n: int) -> bool:
+        p=0
+        while 4**p<n:
+            p+=1
+        return 4**p==n   

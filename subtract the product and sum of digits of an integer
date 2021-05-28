@@ -1,0 +1,14 @@
+class Solution:
+    def subtractProductAndSum(self, n: int) -> int:
+        s=0
+        subtract=0
+        product=1
+        while n:
+            r=n%10
+            n//=10
+            s+=r
+            product*=r
+            subtract=product-s
+        return subtract
+        
+        
